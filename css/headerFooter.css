@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    .navbar {
+        display: flex;
+        background: #5a95d982;
+        width: 100%;
+        height: 80px;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    .account {
+        position: absolute;
+        right: 20px;
+        margin-top: 26px;
+    }
+
+    .account ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .account ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .account ul li :hover {
+        color: black;
+    }
+
+    .navbar .logo {
+        width: 500px;
+        height: 200px;
+        margin-left: -130px;
+        margin-top: -65px;
+    }
+
+    .footer {
+        display: flex;
+        background: #818181;
+        height: 70px;
+    }
+
+    .footer a {
+        font-family: 'Ubuntu';
+    }
+
+    .footer ul li {
+        list-style: none;
+    }
+
+    .footer ul li :hover {
+        color: #171515;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .footer .footer2 {
+        position: absolute;
+        right: 40px;
+    }
+
+    .footer ul li {
+        display: inline-block;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .footer ul {
+        margin: 20px 0 0 30px;
+    }
+
+    .footer1 ul li {
+        margin: 5px;
+    }
+
+    .footer2 ul li {
+        display: inline-block;
+        margin-right: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .footer .footer2 img {
+        width: 30px;
+        height: auto;
+        gap: 10px;
+    }

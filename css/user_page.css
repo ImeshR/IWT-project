@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/useraccount.jpg);
+    background-size:cover;
+    background-position: 100%;
+    backdrop-filter: blur(1.6px);
+}
+.header {
+    background: rgb(132, 133, 134);
+}
+
+.navbar {
+    display: flex;
+    background: #86dedeac;
+    width: 100%;
+    height: 80px;
+}
+img {
+    vertical-align: middle;
+}
+.account {
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+
+}
+
+.account ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.account ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.account ul li :hover {
+    color: black;
+}
+
+.navbar .logo {
+    width: 500px;
+    height: 200px;
+    margin-left: -130px;
+    margin-top: -65px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-container ul li :hover {
+
+    color: black;
+
+}
+.menu-container a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.card{
+    width: 700px;
+    height: 700px;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: #171515;
+
+}
+.upper-card{
+    height: 150px;
+    background: rgb(114, 211, 220);
+    
+}
+.image-container img{
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    transform: translate(250px,80px);
+
+}
+
+.lower-card{
+    height: 550px;
+    background: rgb(210, 206, 206);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+  
+}
+.lower-card h3{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.greeting span{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-color: #2aa8deb1;
+    border-radius: 5px;
+    
+}
+.lower-card p{
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.button a{
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #5bafd3b1;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button a:hover{
+    background-color: #0f8abec3;
+}
+.footer {
+    display: flex;
+    margin-top: 800px;
+    background: #818181;
+}
+
+.footer a {
+    font-family: 'Ubuntu';
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li :hover {
+    color: #171515;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .footer2 {
+    position: absolute;
+    right: 40px;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer1 ul li {
+    margin: 5px;
+    ;
+}
+
+.footer2 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer .footer2 img {
+    width: 30px;
+    height: auto;
+    gap: 10px;
+
+}
+/*.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.container p{
+    color: #fff !important;
+    background-color: #9b9b9ba7;
+    width: 1000px;
+    height: 600px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+    
+}
+.container img{
+    width: 100px;
+    height: auto;
+}
+
+/*.container .content{
+    display:inline-block;
+    position: absolute;
+    line-height: 50px;
+    margin-top: -200px;
+    text-align: start;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+    padding: 30px 50px;
+       
+}*/
+
+

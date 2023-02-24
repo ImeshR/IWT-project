@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-image: url(../images/Hotel_img2.jpg);
+    background-size:cover;
+}
+
+.navbar {
+    display: flex;
+    background: #b3a25856;
+    width: 100%;
+    height: 80px;
+    
+}
+img {
+    vertical-align: middle;
+}
+.account {
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+
+}
+
+.account ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.account ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.account ul li :hover {
+    color: black;
+}
+
+.navbar .logo {
+    width: 500px;
+    height: 200px;
+    margin-left: -130px;
+    margin-top: -65px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-container ul li :hover {
+
+    color: gray;
+
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.content a {
+    color: #fff !important;
+    background-color: #9b9b9b62;
+    padding: 150px 28px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+/*.content {
+    background: #77737347;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-left: 500px;
+    border-radius: 10px;
+    font-size: 100px;
+    font-family: 'Macondo', cursive;
+    display: flex;
+    justify-content: center;
+
+}*/
+
+.content p {
+    color: #fff;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+}
+h2 span{
+    background: #fff;
+    padding: 0 10px;
+}
+h3 {
+    text-align: center;
+    font-family: 'Ubuntu';
+
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #81818137;
+}
+.hero p{
+    background-color: #818181;
+    padding: 40px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*.hero p {
+
+    background: #77737347;
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    margin-left: 250px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 2em;
+    font-family: 'Ubuntu';
+
+}
+
+.hero p span {
+    margin-top: 10px;
+}*/
+.master{
+    background-image: url(../images/materb.jpg);
+    background-size: cover;
+}
+.btn-pack {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-res{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-pack a {
+    color: #fff !important;
+    background-color: #b3a258;
+    padding: 9px 28px;
+    text-decoration: none;
+    font-family: Oswald, Arial Narrow, sans-serif;
+    font-size: .75em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+
+.footer {
+    display: flex;
+    background: #818181;
+}
+
+.footer a {
+    font-family: 'Ubuntu';
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li :hover {
+    color: #171515;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .footer2 {
+    position: absolute;
+    right: 40px;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer1 ul li {
+    margin: 5px;
+    ;
+}
+
+.footer2 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer .footer2 img {
+    width: 30px;
+    height: auto;
+    gap: 10px;
+
+}
+
+/*******************************Gallery***************************************/
+.gallery-container{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    gap: 10px;
+    
+}
+
+.gallery-container .box{
+    position: relative;
+    width: 275px;
+    height: 275px;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.gallery-container .box:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.gallery-container .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.gallery-container .box .imgBx::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg,rgb(156, 120, 43),rgba(0, 0, 0, 0.368));
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+.gallery-container .box:hover .imgBx::before{
+        opacity: 1;
+}
+.gallery-container .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.gallery-container .box .gallery-content{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 2;
+     display: flex;
+     padding: 10px;
+     align-items: flex-end;
+
+}
+.gallery-container .box .gallery-content h4{
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+
+}
+.gallery-container .box:hover .gallery-content h4{
+    transform: translateY(-20px);
+    transition-delay: 0.6s;
+
+}
+.gallery-container .box .gallery-content p{
+    color: #fff;
+    transform: translateY(200px);
+    transition: 0.5s;
+    font-size: 14px;
+}  
+.gallery-container .box:hover .gallery-content p{
+    transform: translateY(-20px);
+    transition-delay: 0.7s; 
+
+}
+
+/**********************************VIDEO*************************************************/
+
+.video-container{
+    margin-top: -150px;
+    
+}
+.video-container .video-bucket{
+    margin: 50px;
+    background: #818181e0;
+    width: 1000px;
+    height: 400px;
+    padding: 10px 0px 0px 20px ;
+    border-radius: 8px;
+}
+.video-container .video-bucket video{
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 40px;    
+
+}
+.video-container .video-bucket .video-description{
+    position: relative;
+    top: -320px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 650px;
+    background-color: rgb(250, 250, 250);
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    border: solid black;
+
+}
+.video-container .video-bucket .video-description h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: center;
+}
+.video-container .video-bucket .video-description p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 30px; 
+}
+

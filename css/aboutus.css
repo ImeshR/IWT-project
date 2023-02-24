@@ -1,0 +1,271 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .bottomPart .about {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bottomPart .about .main .hotelImage{
+        text-align: left;
+    }
+    
+    .bottomPart .about .main .hotelImage img {
+        height: 600px;
+        width: 750px;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    
+    .bottomPart .about .main .hero {
+        width: 700px;
+        text-align: left;
+        padding-left: 80px;
+        padding-top: 50px;
+    }
+    
+    .bottomPart .about .main {
+        display: flex;
+    }
+    
+    .bottomPart .about .main .hero .title h2{
+        color: #00b8a0;
+        font-size: 65px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bottomPart .about .main .hero .title-des p{
+        
+        color: #000;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 20px;
+        margin-bottom: 45px;
+        font-family: "Times New Roman";
+
+    }
+    
+    .bottomPart .vision {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    
+    .bottomPart .vision .title h2 {
+        color: #a0237f;
+        font-size: 60px;
+        width: 1130px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    
+    .bottomPart .vision .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+    }
+    
+    .bottomPart .vision .box .card {
+        height: 365px;
+        width: 1000px;
+        padding: 20px 35px;
+        background: #2784a8;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .bottomPart .vision .box .card .pra p {
+        color: #fcfc;
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+
+    .bottomPart .vision .box .card .bulb {
+        width:100px;
+        padding-top: 10px;
+    }
+    
+    section {
+        padding: 100px 200px;
+    }
+    
+    .header .home {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #2696E9;
+    }
+    
+    .home:before {
+        z-index: 1;
+        content: '';
+        position: absolute;
+        background: rgba(3, 96, 251, 0.3);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .header .home .content {
+        color: #fff;
+        width: 70%;
+        margin-top: 50px;
+        display: none;
+    }
+    
+    .header .home .content.active {
+        display: block;
+    }
+    
+    .header .home .content h1 span {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    
+    .header .home .content p {
+        margin-bottom: 65px;
+    }
+
+    .header .home .videoSlide video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .header .home .videoSlide .menu-container ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .header .home .videoSlide .menu-container {
+        position: sticky  ;
+        z-index: 222;
+        padding-bottom: 450px;
+    }
+    
+    .header .home .videoSlide .menu-container ul li :hover {
+        color: gray;
+    }
+    
+    .header .home .videoSlide .menu-container a {
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .header .home .content {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+    }
+    
+    .header .home .content.active .title h1 {
+        color: white;
+        font-size: 60px;
+        text-align: left;
+        font-size: 3em;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 75px;
+        position: relative;
+        z-index: 999;
+    }
+
+    #title2 {
+        font-size: 60px;
+        color: #f9004d;
+        position: relative;
+    } 
+    
+    .header .home .content.active .title {
+        text-align: left;
+        position: relative;
+    }
+
+    @media only screen and (min-width: 1499px){
+        .bottomPart .about .main .about-text {
+            width: 1000px;
+            padding-left: 100px;
+            padding-top: 50px;
+        }
+
+        .bottomPart .about .main .about-text p {
+            font-size: 26px;
+        }
+
+        .bottomPart .about .main .about-text h2 {
+            font-size: 75px;
+        }
+    }
+
+    .bottomPart .ceo {
+        width: 100%;
+        height: 1000px;
+    }
+    
+    .bottomPart .ceo .ceo-img {
+        float: right;
+        width: 50%;
+    }
+    .bottomPart .ceo .ceo-img .imgs{
+        padding-top: 200px;
+        text-align: center;
+    }
+    
+    .bottomPart .ceo .ceo-img img {
+        border-radius: 50%;
+        height: 500px;
+    }
+    
+    .bottomPart .ceo .message {
+       float: left;
+       width: 50%;
+    }
+    
+    .bottomPart .ceo .message .message-title {
+        width: 100%;
+        padding-top: 80px;
+    }
+    
+    .bottomPart .ceo .message .message-title h2 {
+        text-align: center;
+        color: #00b8a0;
+        font-size: 65px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+    
+     .bottomPart .ceo .message .ceo-message {
+         padding-top: 50px;
+         width: 100%;
+         /* text-align: center; */
+         padding-left: 50px;
+    }
+     
+     .bottomPart .ceo .message .ceo-message p {
+        text-align: left;
+        font-family: "Times New Roman";
+        font-size: 20px;
+        color: #000;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }

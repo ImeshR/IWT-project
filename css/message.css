@@ -1,0 +1,62 @@
+.container3{
+    position: absolute;
+    background: #fff;
+    margin-top: 23px;
+    width: 1050px;
+    height: 600px;
+    left: 20%;
+    border-radius: 10px;
+    text-align: center;
+    transform: translate(-70%,20%)scale(0.1);
+    visibility: hidden;
+    transition: transorm 0.4s left 0.4s;
+
+}
+.container3 span a{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    left: 45%;
+    top: -15%;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.container3 img{
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    gap: 10px;
+}
+.message_account .container3 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+.message_account .container3 table{
+    text-align: center;
+    margin: 40px 10px;
+    width: 1030px;
+    
+}
+.message_account .container3 table th{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+.message_account .container3 table td{
+    color: rgb(16, 14, 14);
+    font-size: 1.2em;
+    padding: 8px;
+}
+
+.message_account .container3 table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+.open-popup3{
+    visibility: visible;
+    left: 55%;
+    transform: translate(-50%,0%)scale(1);
+}
